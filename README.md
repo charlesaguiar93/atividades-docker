@@ -870,3 +870,24 @@ O Docker efetuou a varredura completa no disco e removeu com segurança os arqui
 O resultado de Total reclaimed space: 0B significa que o seu ambiente Docker já estava totalmente limpo e otimizado, sem nenhuma imagem residual (dangling image) ou corrompida ocupando espaço desnecessário no seu HD.
 
 ![Limpando imagens residuais](2-30-Limpando-imagens-residuais.png)
+
+### Passo 0 — Preparar o ambiente
+Antes de qualquer container, valide a instalação (siga a trilha do sistema operacional da turma:
+Windows 11, Linux ou macOS, conforme o material de instalação de vocês).
+docker --version
+docker compose version
+docker run --rm hello-world
+# Checkpoint: todo aluno roda os três comandos acima sem erro e consegue explicar em uma frase
+o que docker run hello-world acabou de fazer (baixou uma imagem e executou um container
+a partir dela).
+
+![passo-0-Validar-a-versão-do-Docke](passo-0-Validar-a-versão-do-Docker.png)
+![passo-0-Validar-a-versão-do-Docker-Compose-e-container](passo-0-Validar-a-versão-do-Docker-Compose-e-container.png)
+
+## passo 1 - 2 
+https://github.com/charlesaguiar93/docker-projeto-guiado.git
+
+![Docke-Container](Docker-container.png)
+![Docker-imagens](Docker-imagens.png)
+
+
